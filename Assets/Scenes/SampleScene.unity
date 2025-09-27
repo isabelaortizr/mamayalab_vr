@@ -826,15 +826,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3249731390559777099, guid: d76f7e63c04c62d489738de97995f0b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.0740489
+      value: -1.074158
       objectReference: {fileID: 0}
     - target: {fileID: 3249731390559777099, guid: d76f7e63c04c62d489738de97995f0b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -144.06076
+      value: -72.04361
       objectReference: {fileID: 0}
     - target: {fileID: 3249731390559777099, guid: d76f7e63c04c62d489738de97995f0b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -15.399511
+      value: -15.399517
       objectReference: {fileID: 0}
     - target: {fileID: 3998281643874360424, guid: d76f7e63c04c62d489738de97995f0b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
