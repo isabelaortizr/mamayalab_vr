@@ -16325,10 +16325,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animacion Escena 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3485213855993319217, guid: 0fe2f19c279314a4d86dd04c3c4023a0, type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5808343616850284727, guid: 0fe2f19c279314a4d86dd04c3c4023a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0092767775
