@@ -18,7 +18,7 @@ public class particulas : MonoBehaviour
             if (other.CompareTag("Player"))
             {
                 Instantiate(efectoParticulas, transform.position, transform.rotation);
-                Destroy(gameObject);
+                Destroy(this.gameObject);
             }
         }
 

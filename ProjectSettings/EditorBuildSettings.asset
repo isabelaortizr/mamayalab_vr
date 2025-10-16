@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OficinaMamaya 1.unity
     guid: 76be6f5d176966d4993f5e28c91e8fb1
   - enabled: 1

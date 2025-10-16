@@ -1229,6 +1229,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8396198572990307888, guid: fba5b93e44dc42f49b103ddb037e7fa4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1239,6 +1243,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7211560564400032073, guid: fba5b93e44dc42f49b103ddb037e7fa4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 245745231}
+    - targetCorrespondingSourceObject: {fileID: 7211560564400032073, guid: fba5b93e44dc42f49b103ddb037e7fa4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 245745233}
   m_SourcePrefab: {fileID: 100100000, guid: fba5b93e44dc42f49b103ddb037e7fa4, type: 3}
 --- !u!1 &245745230 stripped
 GameObject:
@@ -1252,7 +1259,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245745230}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1be8e3a6467aae4ca9fe536fc1cc10e, type: 3}
   m_Name: 
@@ -1279,6 +1286,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.96571296, y: 2.0248802, z: 0.08707759}
   m_Center: {x: -0.48285648, y: 1.0079006, z: 0}
+--- !u!114 &245745233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245745230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca71ca5dbacb6054692bf53046697e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CambioDeEscena
+  escena: 
 --- !u!1001 &246776411
 PrefabInstance:
   m_ObjectHideFlags: 0
