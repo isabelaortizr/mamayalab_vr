@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
+=======
+--- !u!114 &-7159518839550702457
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+>>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -31,11 +47,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 6a32150facdc0894c949154cf0d7a413, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 92244fd72c4c35f42b61c428c48e39ec, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: f0592654eeb8ea84da9108706dcec951, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: fe53955450258d1489dccba9eaa05497, type: 3}
+>>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -55,7 +79,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 6a32150facdc0894c949154cf0d7a413, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: f0592654eeb8ea84da9108706dcec951, type: 3}
+>>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -129,6 +157,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+<<<<<<< HEAD
 --- !u!114 &7093747147284822243
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -142,3 +171,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
   version: 10
+=======
+>>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
