@@ -15,12 +15,13 @@ public class particulas : MonoBehaviour
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player"))
-            {
-                Instantiate(efectoParticulas, transform.position, transform.rotation);
-                Destroy(this.gameObject);
-            }
+        if (other.CompareTag("Player"))
+        {
+            GameObject efecto = Instantiate(efectoParticulas, transform.position, transform.rotation);
+            Destroy(efecto, 2f);
+            Destroy(this.gameObject);
         }
+    }
 
     // Update is called once per frame
     void Update()
