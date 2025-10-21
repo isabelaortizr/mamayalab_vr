@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2189416782154670114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.634131
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.444
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      propertyPath: m_Name
+      value: Oficinista Sitting Idle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 168482659603593323}
+  m_SourcePrefab: {fileID: 100100000, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+--- !u!1 &1342977756569705843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dd5de02c4f93ea459ed49d318a8a682, type: 3}
+  m_PrefabInstance: {fileID: 2189416782154670114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &168482659603593323
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342977756569705843}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8fa21837ceed46c43be4118493810109, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
