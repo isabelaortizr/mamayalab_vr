@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.AI; 
 
-public class NPCWander : MonoBehaviour
+public class NPC : MonoBehaviour
 {
     [Header("Configuración del NPC")]
 
