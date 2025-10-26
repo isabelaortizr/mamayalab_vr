@@ -1,8 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
-=======
---- !u!114 &-7930131918971901121
+--- !u!114 &-6239166416108750230
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,7 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
   version: 10
->>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -43,19 +40,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-<<<<<<< HEAD
-        m_Texture: {fileID: 2800000, guid: 109c1f4e42b3e7740a396185ecbd54c0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4c8b1f1a541bf6f4db67dc00d6e7ad59, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7fc2d77aed3e7974799ac11e0f9572b0, type: 3}
-=======
-        m_Texture: {fileID: 2800000, guid: d5eb3403528c9504fbb7ff606a6ad431, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ce5e19494fc2dbe44b28325ec14c28d7, type: 3}
->>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
+        m_Texture: {fileID: 2800000, guid: da661ad0e4d37794b9117c6db6c9bad5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -75,11 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-<<<<<<< HEAD
-        m_Texture: {fileID: 2800000, guid: 109c1f4e42b3e7740a396185ecbd54c0, type: 3}
-=======
-        m_Texture: {fileID: 2800000, guid: d5eb3403528c9504fbb7ff606a6ad431, type: 3}
->>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
+        m_Texture: {fileID: 2800000, guid: 4c8b1f1a541bf6f4db67dc00d6e7ad59, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -153,19 +138,3 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
-<<<<<<< HEAD
---- !u!114 &2105256838408245002
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10
-=======
->>>>>>> 9ba005452dddbd2cf240631b46ada6ec3faab93d
