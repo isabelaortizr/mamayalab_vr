@@ -1,4 +1,4 @@
-using System.Diagnostics;
+Ôªøusing System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -21,10 +21,11 @@ public class NPCAnimator : MonoBehaviour
 
         if (agente == null || animador == null)
         {
-            // LÌnea corregida: especificamos que es el Debug de Unity
+            // L√≠nea corregida: especificamos que es el Debug de Unity
             UnityEngine.Debug.LogError("Error: Faltan componentes NavMeshAgent o Animator en el NPC.");
             enabled = false; // Desactiva el script si falta algo
         }
+        
     }
 
     void Update()
@@ -32,10 +33,10 @@ public class NPCAnimator : MonoBehaviour
         // 1. Obtener la velocidad actual del NavMeshAge      
         float velocidad = agente.velocity.magnitude;
 
-        // 2. Determinar si el NPC est· "caminando     
+        // 2. Determinar si el NPC est√° "caminando     
         bool estaCaminando = velocidad > 0.1f;
 
-        // 3. Establecer el par·metro booleano en el Animator
+        // 3. Establecer el par√°metro booleano en el Animator
         animador.SetBool(PARAM_IS_WALKING, estaCaminando);
     }
 }
