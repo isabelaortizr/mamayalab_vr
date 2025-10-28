@@ -19,6 +19,10 @@ public class NPC_script: MonoBehaviour
     private NavMeshAgent agente;
     private Vector3 posicionInicial;
 
+    // (Fragmento del script NPC_script.cs)
+
+    
+    
     void Start()
     {
         agente = GetComponent<NavMeshAgent>();

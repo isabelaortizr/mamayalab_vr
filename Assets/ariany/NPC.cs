@@ -10,7 +10,7 @@ public class NPC : MonoBehaviour
     public float rangoDeBusqueda = 15f;
 
     [Tooltip("Tiempo de espera entre la elección de nuevos destinos (Cada X tiempo).")]
-    public float tiempoDeEspera = 5f;
+    public float tiempoDeEspera = 1f;
 
     private NavMeshAgent agente; 
     private Vector3 posicionInicial;
