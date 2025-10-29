@@ -30,9 +30,4 @@ public class CambioDeEscena : MonoBehaviour
 
     }
 
-    public void CambioForzado()
-    {
-        SceneManager.LoadScene(escena);
-    }
-
 }
