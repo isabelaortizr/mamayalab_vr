@@ -21,8 +21,8 @@ public class NPC_script: MonoBehaviour
 
     // (Fragmento del script NPC_script.cs)
 
-    
-    
+
+
     void Start()
     {
         agente = GetComponent<NavMeshAgent>();
@@ -30,27 +30,37 @@ public class NPC_script: MonoBehaviour
         // 🔹 Verifica si el NPC está sobre el NavMesh
         if (!agente.isOnNavMesh)
         {
-            // Trata de ubicarlo en el punto válido más cercano
+            // Trata de ubicarlo en el punto válido más cercano (Tu lógica de corrección de aterrizaje)
             if (NavMesh.SamplePosition(transform.position, out NavMeshHit hit, 5f, NavMesh.AllAreas))
             {
-                // Corrige la posición del NPC y del agente
                 transform.position = hit.position;
                 agente.Warp(hit.position);
-                Debug.Log("✅ NPC recolocado automáticamente sobre el NavMesh.");
+                UnityEngine.Debug.Log("✅ NPC recolocado automáticamente sobre el NavMesh.");
             }
             else
             {
-                Debug.LogError("❌ NPC fuera del NavMesh y no se encontró punto válido cercano.");
+                UnityEngine.Debug.LogError("❌ NPC fuera del NavMesh y no se encontró punto válido cercano.");
             }
         }
+        // Si ya está en la malla, se inicializa sin Warp.
 
         // Ahora sí guardamos su posición real sobre la malla
         posicionInicial = transform.position;
 
+        // 💡 PASO CRÍTICO: FORZAR EL PRIMER MOVIMIENTO INMEDIATO
+        // -----------------------------------------------------------
+        Vector3 primerDestino = BuscarPuntoAleatorio();
+
+        if (agente.isOnNavMesh)
+        {
+            agente.SetDestination(primerDestino); // Le damos la primera orden de movimiento.
+            agente.angularSpeed = 720f; // Aseguramos el giro rápido al inicio.
+        }
+        // -----------------------------------------------------------
+
         // Inicia la rutina de movimiento
         StartCoroutine(MoverAleatoriamente());
     }
-
     IEnumerator MoverAleatoriamente()
     {
         while (true)
