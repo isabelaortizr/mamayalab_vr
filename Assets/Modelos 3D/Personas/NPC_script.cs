@@ -19,7 +19,7 @@ public class NPC_script: MonoBehaviour
     private NavMeshAgent agente;
     private Vector3 posicionInicial;
 
-    // (Fragmento del script NPC_script.cs)
+ 
 
 
 
@@ -27,34 +27,32 @@ public class NPC_script: MonoBehaviour
     {
         agente = GetComponent<NavMeshAgent>();
 
-        // 🔹 Verifica si el NPC está sobre el NavMesh
+        // Verifica si el NPC está sobre el NavMesh
         if (!agente.isOnNavMesh)
         {
-            // Trata de ubicarlo en el punto válido más cercano (Tu lógica de corrección de aterrizaje)
+            // Trata de ubicarlo en el punto valido
             if (NavMesh.SamplePosition(transform.position, out NavMeshHit hit, 5f, NavMesh.AllAreas))
             {
                 transform.position = hit.position;
                 agente.Warp(hit.position);
-                UnityEngine.Debug.Log("✅ NPC recolocado automáticamente sobre el NavMesh.");
+                UnityEngine.Debug.Log(" NPC recolocado automáticamente sobre el NavMesh.");
             }
             else
             {
-                UnityEngine.Debug.LogError("❌ NPC fuera del NavMesh y no se encontró punto válido cercano.");
+                UnityEngine.Debug.LogError(" NPC fuera del NavMesh y no se encontró punto válido cercano.");
             }
         }
-        // Si ya está en la malla, se inicializa sin Warp.
+       
 
-        // Ahora sí guardamos su posición real sobre la malla
         posicionInicial = transform.position;
 
-        // 💡 PASO CRÍTICO: FORZAR EL PRIMER MOVIMIENTO INMEDIATO
-        // -----------------------------------------------------------
+      
         Vector3 primerDestino = BuscarPuntoAleatorio();
 
         if (agente.isOnNavMesh)
         {
-            agente.SetDestination(primerDestino); // Le damos la primera orden de movimiento.
-            agente.angularSpeed = 720f; // Aseguramos el giro rápido al inicio.
+            agente.SetDestination(primerDestino); // primera orden de movimiento.
+            agente.angularSpeed = 720f; 
         }
         // -----------------------------------------------------------
 
@@ -80,7 +78,7 @@ public class NPC_script: MonoBehaviour
             // 3. Esperar a que la distancia restante sea mínima (ha frenado y llegado)
             yield return new WaitUntil(() => agente.remainingDistance <= agente.stoppingDistance + 0.1f);
 
-            // 4. PAUSA. El personaje se detiene, la animación de 'parado' se activa
+            // 4. PAUSA El personaje se detiene, la animación de 'parado' se activa
             yield return new WaitForSeconds(tiempoDeEspera);
         }
     }
