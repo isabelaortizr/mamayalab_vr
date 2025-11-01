@@ -3,12 +3,82 @@ guid: 7836843faf539934191b986b5af1d1ea
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Anodized Aluminum Rough Black #2
+    second: {fileID: 2100000, guid: b027f4d096dee654ca8405ab06a72b13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Anodized Aluminum Rough Blue #1
+    second: {fileID: 2100000, guid: c2ffab05699e43541bd458bd7dd845da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome Polished
+    second: {fileID: 2100000, guid: 325d0339001b5d5419f08044e777569a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Componente1(Simetr\xEDa) (2)_color_251_250_245"
+    second: {fileID: 2100000, guid: f167c14e7e8b7124fbb6403790024ce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Componente1(Simetr\xEDa) (3)_color_251_250_245"
+    second: {fileID: 2100000, guid: e88ed2e902237eb4288aac293e7222c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Componente1(Simetr\xEDa) (4)_color_251_250_245"
+    second: {fileID: 2100000, guid: b1472883678e682428527e84a110d0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Componente1(Simetr\xEDa) (4)_color_89_89_89"
+    second: {fileID: 2100000, guid: 6acc69a4d2775dc49b5d2fa13738f881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Componente1(Simetr\xEDa)_color_251_250_245"
+    second: {fileID: 2100000, guid: 8985b670bdde5b3448a0ad1a2868cff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Componente1(Simetr\xEDa)_color_89_89_89"
+    second: {fileID: 2100000, guid: e293341694f7f764fa0547338a3a3fe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emissive Warm #1
+    second: {fileID: 2100000, guid: c53e2ffeb3c72514a9787a5abc078bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass Basic White
+    second: {fileID: 2100000, guid: 6bc8595551044764d92b5ccacef7556a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint Metallic Candy Blue
+    second: {fileID: 2100000, guid: 50383a36a09926148bad905b0fd170b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint Metallic Orange peel White #3
+    second: {fileID: 2100000, guid: 11a47c84c5852a245812b3b1a527883d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint Metallic Orange peel White #5
+    second: {fileID: 2100000, guid: 19bd26dfa46dd0a409f6f4c342dec00e, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
