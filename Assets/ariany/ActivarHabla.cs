@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ActivarHabla : MonoBehaviour
 {
-    public AudioSource fuenteDeAudio1, fuenteDeAudio2 , fuenteDeAudio3, fuenteDeAudio4, fuenteDeAudio5, fuenteDeAudio6, fuenteDeAudio7, fuenteDeAudio8;
+    public AudioSource fuenteDeAudio1, fuenteDeAudio2 , fuenteDeAudio3, fuenteDeAudio4, fuenteDeAudio5, fuenteDeAudio6, fuenteDeAudio7, fuenteDeAudio8, fuenteDeAudio9;
 
     public void playAudio1()
     {
@@ -36,6 +36,10 @@ public class ActivarHabla : MonoBehaviour
     public void playAudio8()
     {
         fuenteDeAudio8.Play();
+    }
+    public void playAudio9()
+    {
+        fuenteDeAudio9.Play();
     }
 
 }
