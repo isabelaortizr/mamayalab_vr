@@ -24860,6 +24860,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1053826374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053826366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff4088f772f0d849a041a94e7022625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioCamara
+  clipsDeAudio:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &1070869718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42826,6 +42849,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 920933844874502567, guid: 0fe2f19c279314a4d86dd04c3c4023a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1053826372}
+    - targetCorrespondingSourceObject: {fileID: 920933844874502567, guid: 0fe2f19c279314a4d86dd04c3c4023a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1053826374}
   m_SourcePrefab: {fileID: 100100000, guid: 0fe2f19c279314a4d86dd04c3c4023a0, type: 3}
 --- !u!1001 &1993026302
 PrefabInstance:
