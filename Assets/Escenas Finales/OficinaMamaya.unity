@@ -39128,7 +39128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4c28ea3be1ba14eac825b498212cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::particulas
-  efectoParticulas: {fileID: 1955654343506694590, guid: 6d49dd68a04a78c43b6fea78f8a4be1a, type: 3}
+  efectoParticulas: {fileID: 5431547674631289834, guid: 6d49dd68a04a78c43b6fea78f8a4be1a, type: 3}
 --- !u!65 &1845886987
 BoxCollider:
   m_ObjectHideFlags: 0
