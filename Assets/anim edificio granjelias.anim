@@ -248,7 +248,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 24.466667
-    functionName: 
+    functionName: CambioForzado
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
