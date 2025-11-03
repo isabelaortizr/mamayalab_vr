@@ -3507,6 +3507,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7890861906664698201, guid: ca8d56c224749e84d8f395fe447986a8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 939271527}
+    - targetCorrespondingSourceObject: {fileID: 6736731192603397429, guid: ca8d56c224749e84d8f395fe447986a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 667173503}
   m_SourcePrefab: {fileID: 100100000, guid: ca8d56c224749e84d8f395fe447986a8, type: 3}
 --- !u!1001 &151180671
 PrefabInstance:
@@ -17158,6 +17161,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2464564332631738728, guid: 46b951c178938ff469e5550fbc61efa0, type: 3}
   m_PrefabInstance: {fileID: 664250564}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &667173500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6736731192603397429, guid: ca8d56c224749e84d8f395fe447986a8, type: 3}
+  m_PrefabInstance: {fileID: 149775529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &667173503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667173500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca71ca5dbacb6054692bf53046697e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CambioDeEscena
+  escena: Futuelias
 --- !u!1001 &667500547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31138,6 +31159,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2464564332631738728, guid: 46b951c178938ff469e5550fbc61efa0, type: 3}
   m_PrefabInstance: {fileID: 1347161485}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1350678654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3255330198129383372, guid: ee5864940c306c94d992238ded16df7c, type: 3}
+  m_PrefabInstance: {fileID: 1741471407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1350678655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350678654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca71ca5dbacb6054692bf53046697e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CambioDeEscena
+  escena: Futuelias
+--- !u!95 &1350678656
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350678654}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c36ac709fbc78f4a9c5abbba5774ae7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1362239098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38169,7 +38230,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3255330198129383372, guid: ee5864940c306c94d992238ded16df7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1350678656}
+    - targetCorrespondingSourceObject: {fileID: 3255330198129383372, guid: ee5864940c306c94d992238ded16df7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1350678655}
   m_SourcePrefab: {fileID: 100100000, guid: ee5864940c306c94d992238ded16df7c, type: 3}
 --- !u!1001 &1744474715
 PrefabInstance:
