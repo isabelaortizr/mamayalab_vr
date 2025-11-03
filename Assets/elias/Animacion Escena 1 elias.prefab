@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5179729713770610846}
   - component: {fileID: 6421362848890520559}
   m_Layer: 0
-  m_Name: Animacion Escena 1
+  m_Name: Animacion Escena 1 elias
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
