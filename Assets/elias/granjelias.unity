@@ -11307,7 +11307,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.762465
+      value: -47.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11315,7 +11315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.031708
+      value: -26.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11380,6 +11380,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
       propertyPath: m_Name
       value: Edificio sofia exterior
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6406d3ceba95ffb4587225f413b4f320, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13998,6 +14002,113 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3238997971687093019, guid: b711889c9864c5944861599e26af1369, type: 3}
   m_PrefabInstance: {fileID: 739756520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &741421336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -48.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94751006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.319726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -37.293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_Name
+      value: new build elias
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 741421339}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 741421338}
+  m_SourcePrefab: {fileID: 100100000, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+--- !u!1 &741421337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e37c0b761848d9448af0d55d7466a1b2, type: 3}
+  m_PrefabInstance: {fileID: 741421336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &741421338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741421337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca71ca5dbacb6054692bf53046697e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CambioDeEscena
+  escena: ofielias
+--- !u!95 &741421339
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741421337}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 46bf942f397d69e489531843ec195042, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &742543582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44890,3 +45001,4 @@ SceneRoots:
   - {fileID: 219968545}
   - {fileID: 958939027}
   - {fileID: 450803716}
+  - {fileID: 741421336}
