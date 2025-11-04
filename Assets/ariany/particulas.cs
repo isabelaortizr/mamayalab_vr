@@ -6,9 +6,9 @@ public class particulas : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Mano"))
         {
-            // La línea clave para solucionar el error CS0104:
+            // La lú‹ea clave para solucionar el error CS0104:
             UnityEngine.Debug.Log("¡TRIGGER DE PARTÍCULAS ACTIVADO!");
 
             GameObject efecto = Instantiate(efectoParticulas, transform.position, transform.rotation);
@@ -18,7 +18,6 @@ public class particulas : MonoBehaviour
             if (ps != null)
             {
                 ps.Play();
-                Destroy(efecto, ps.main.duration);
             }
 
             this.enabled = false;
